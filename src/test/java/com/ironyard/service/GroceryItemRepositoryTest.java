@@ -13,8 +13,7 @@ import static org.junit.Assert.*;
 /**
  * Created by rohanayub on 2/1/17.
  */
-@SpringBootTest
-@RunWith(SpringRunner.class)
+
 public class GroceryItemRepositoryTest {
     @Autowired
     GroceryItemRepository myGroceryItemRepo;

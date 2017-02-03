@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 /**
  * Created by rohanayub on 2/1/17.
  */
-@Entity
+
 public interface GroceryItemRepository extends CrudRepository<GroceryItem, Long>{
 
 }

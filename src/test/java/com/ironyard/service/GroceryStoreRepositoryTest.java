@@ -31,7 +31,7 @@ public class GroceryStoreRepositoryTest {
         GroceryStore found = myGroceryStoreRepo.findOne(newStore.getId());
         Assert.assertEquals(newStore.getAisle(), found.getAisle());
 
-        //myGroceryStoreRepo.delete(newStore);
+        myGroceryStoreRepo.delete(newStore);
 
 
     }

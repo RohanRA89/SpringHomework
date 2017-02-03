@@ -8,6 +8,6 @@ import javax.persistence.Entity;
 /**
  * Created by rohanayub on 2/1/17.
  */
-@Entity
+
 public interface ShopperPersonRepository extends CrudRepository<ShopperPerson, Long> {
 }
